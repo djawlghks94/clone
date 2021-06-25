@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+/* #header {display: none;} */
+
+#loginPage .logoinTop{ 
+    background-image:url(../img/slide3.jpg); 
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 200px 0;
+    color:#fff;
+    font-size: 45px;
+}
+
+.loginBox h3 {
+    text-align: center;
+    font-size: 35px;
+    margin: 60px 0 0px 0;
+}
+
+.loginBox .loginForm {
+    text-align: center;
+    padding-top: 30px;
+    position: relative;
+    
+    
+}
+.loginBox .loginForm label{
+    width: 80px; text-align: center;
+    font-size: 18px;
+    color: #033;
+    margin-right: 15px;
+    word-break: keep-all;
+    
+}
+
+
+.loginBox .loginForm input {
+    width: 450px; height: 50px;
+    border: 1px solid #cdcdcd;
+    background-color: #f6f6f6;
+    text-indent: 1.5em;
+    margin-right: 90px;
+}
+.loginBox .loginForm p {padding: 10px 0;}
+
+.loginBox .loginForm button {
+    width: 120px; height: 120px;
+    background-color: #000;
+    border-radius: 5px;
+    color: #fff;
+    position: absolute;
+    top: 40px; left:70%;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #777;
+    /* transform: translate(40px -63%); */
+}
+.loginBox .idpwfind {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    
+
+}
+
+.loginBox .idpwfind a {
+    padding: 5px 5px;
+}
+
+/* .loginBox .idpwfind a:first-child {
+    padding-right: 20px;
+} */
